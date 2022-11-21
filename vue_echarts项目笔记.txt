@@ -1,0 +1,15 @@
+echarts项目的安装
+npm install -g @vue/cli
+npm install --save lib-flexible(屏幕自适应)
+安装插件 px to rem（可以不用手动修改rem）
+
+把上下左右四个部分设置成一个插槽组件进行复用（components/itemPage）
+插槽作用：在插槽组件中插入其他组件
+
+npm install --save echarts
+npm install --save axios
+引用echarts:
+	首先在App.vue中引入provide，然后在需要用echarts的组件中引入inject
+
+npm install --save express
+启动服务器命令：node index.js  启动路由后，不要把终端关掉
